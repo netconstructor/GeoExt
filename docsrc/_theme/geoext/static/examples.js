@@ -3,7 +3,7 @@ Ext.onReady(function() {
     var loc = window.location.href;
     var exbase = "../examples/"
     if (/^http:\/\/(www\.)?geoext.org\/examples.html/.test(loc)) {
-        exbase = "http://api.geoext.org/" + docversion + "/geoext/examples/";
+        exbase = "http://api.geoext.org/" + docversion + "/examples/";
     } else if (/^http:\/\/dev.geoext.org\/docs\/examples.html/.test(loc)) {
         exbase = "http://dev.geoext.org/trunk/geoext/examples/";
     }
