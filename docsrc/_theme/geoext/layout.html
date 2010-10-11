@@ -78,9 +78,9 @@
     <script src="{{ pathto('_static/builder-v1.0.js', 1) }}"></script>
     <script>
         Ext.BLANK_IMAGE_URL = "{{ pathto('_static/img/blank.gif', 1) }}";
-        builder.url = "http://localhost:8080/builder/geoext/1.0";
+        builder.url = "http://buildjs.opengeo.org/builder/geoext/1.0";
     </script>
-    <script src="http://localhost:8080/assets/geoext/1.0?callback=builder.setAssets"></script>
+    <script src="http://buildjs.opengeo.org/assets/geoext/1.0?callback=builder.setAssets"></script>
     {% endif %}
 {% endblock %}
 
